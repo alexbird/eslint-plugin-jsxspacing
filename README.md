@@ -33,6 +33,15 @@ This plugin must be added to the ``plugins`` section in the ``.eslintrc``:
 
 This plugin contains one rule only, the ``jsx-prop-columns`` rule:
 
+```json
+{
+    "rules": {
+        "jsxspacing/jsx-prop-columns": "error"
+    }
+}
+
+```
+
 ### Available rules
 
 - [jsx-prop-columns](https://github.com/alexbird/eslint-plugin-jsxspacing/blob/master/docs/rules/jsx-prop-columns.md)
