@@ -1,13 +1,20 @@
 {
   "name": "eslint-plugin-jsxspacing",
   "version": "0.1.0",
-  "description": "An eslint rule to line up things vertically, so they look prettier.",
+  "description": "An eslint rule to line up things vertically, so they look prettier to people who like that sort of thing.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexbird/eslint-plugin-jsxspacing.git"
+  },
   "keywords": [
     "eslint",
     "eslintplugin",
-    "eslint-plugin"
+    "eslint-plugin",
+    "jsx",
+    "alignment"
   ],
   "author": "Alex Bird",
+  "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha tests --recursive"
@@ -21,6 +28,5 @@
   },
   "engines": {
     "node": ">=0.10.0"
-  },
-  "license": "ISC"
+  }
 }
