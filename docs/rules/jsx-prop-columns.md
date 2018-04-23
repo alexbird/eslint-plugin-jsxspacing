@@ -33,7 +33,7 @@ Examples of **correct** code for this rule:
     secureTextEntry = {true}
     onChangeText    = {passwordInput =>
                             this.setState({ passwordInput })
-                        }
+                      }
 />
 
 ```
