@@ -1,7 +1,9 @@
 eslint-plugin-jsxspacing
 ========================
 
-An eslint rule to line jsx things up vertically, so they look prettier to people who like that sort of thing ;p E.g. unreformed C++ programmers.
+An eslint rule to line jsx things up vertically, so they look prettier to people who like that sort of thing ;p E.g. unreformed C++ programmers. 
+
+*Just to be clear, I don't think this helps clarity at all, but I was working with someone who decreed it, and I really wanted to automate the sh!t out of it. They didn't like this in the end because it didn't use hard tabs for alignment* 😭
 
 This plugin aims to implement a eslint rule like ``object-spacing``, but for JSX properties.
 
